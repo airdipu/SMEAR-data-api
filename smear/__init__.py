@@ -1,1 +1,1 @@
-from .smear import getData, listAllData, getVariableMetadata
+from .smear_fetch import getData, listAllData, getVariableMetadata
