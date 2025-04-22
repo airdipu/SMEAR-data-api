@@ -1,8 +1,11 @@
 from setuptools import setup, find_packages
 
+with open("README.md", "r", encoding="utf-8") as fh:
+    long_description = fh.read()
+
 setup(
     name="smear_data_api",
-    version="1.0.0",
+    version="1.0.1",
     description="A Python package for interacting with the SMEAR API and processing data for continuous period.",
     author="Abdur Rahman",
     author_email="abdur.rahman@helsinki.fi",
