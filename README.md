@@ -36,7 +36,7 @@ from utils.data_extract import fetch_combined_data
 # Define variables and time range
 variables = ['HYY_META.O3672', 'HYY_META.NOx672']
 start_year = 1996
-end_year = 2023
+end_year = 2024
 
 # Fetch combined data
 data_fetched = fetch_combined_data(variables, start_year, end_year)
@@ -61,7 +61,7 @@ SMEAR-data-api/
 ```
 
 ## License
-This project is licensed under the Apache License 2.0. See the `LICENSE` file for details.
+This project is licensed under the MIT License. See the `LICENSE` file for details.
 
 
 ## Resources
