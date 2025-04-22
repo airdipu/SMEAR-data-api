@@ -6,6 +6,7 @@ from collections.abc import Iterable
 from datetime import datetime, timedelta
 import warnings
 warnings.filterwarnings("ignore", category=UserWarning, module="pandas")
+
 """
 This module provides functions to interact with the Smart SMEAR API.
 It allows users to fetch time series data, list available variables, and get metadata for specific variables.
