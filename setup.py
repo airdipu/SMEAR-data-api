@@ -12,10 +12,9 @@ setup(
         "pandas>=1.0.0",
         "numpy>=1.18.0",
     ],
-    license="Apache License 2.0",
     classifiers=[
         "Programming Language :: Python :: 3",
-        "License :: OSI Approved :: Apache Software License",
+        "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
     python_requires=">=3.7",

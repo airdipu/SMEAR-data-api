@@ -1,5 +1,5 @@
 import pandas as pd
-import smear.smear_fetch
+import smear.smear
 
 def fetch_combined_data(variables, start_year, end_year, quality='ANY', averaging='1', avg_type='NONE'):
     """
@@ -24,7 +24,7 @@ def fetch_combined_data(variables, start_year, end_year, quality='ANY', averagin
         start_date = f"{year}-01-01"
         end_date = f"{min(year + 1, end_year)}-12-31"
 
-        data_segment = smear.smear_fetch.getData(variables, start=start_date, end=end_date, 
+        data_segment = smear.smear.getData(variables, start=start_date, end=end_date, 
                                                quality=quality, averaging=averaging, avg_type=avg_type)
         
         if not isinstance(data_segment, pd.DataFrame):

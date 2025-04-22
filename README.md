@@ -62,3 +62,10 @@ SMEAR-data-api/
 
 ## License
 This project is licensed under the Apache License 2.0. See the `LICENSE` file for details.
+
+
+## Resources
+
+Junninen, H., Lauri, A., Keronen, P., Aalto, P., Hiltunen, V., Hari, P., Kulmala, M. 2009. Smart-SMEAR: on-line data exploration and visualization tool for SMEAR stations. Boreal Environment Research 14, 447–457.
+
+https://smear.avaa.csc.fi/

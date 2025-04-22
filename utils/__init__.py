@@ -1,1 +1,1 @@
-from .data_extract import fetch_combined_data
+__all__ = ['data_extract']
