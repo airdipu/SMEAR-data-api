@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setup(
     name="smear_data_api",
-    version="1.0.2",
+    version="1.0.3",
     description="A Python package for interacting with the SMEAR API and processing data for continuous period.",
     long_description=long_description,
     long_description_content_type="text/markdown",
