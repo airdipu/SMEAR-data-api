@@ -45,21 +45,6 @@ data_fetched = fetch_combined_data(variables, start_year, end_year)
 print(data_fetched)
 ```
 
-## Directory Structure
-
-```
-SMEAR-data-api/
-├── smear_api/
-│   ├── __init__.py
-│   ├── tools.py
-├── utils/
-│   ├── __init__.py
-│   ├── data_extract.py
-├── setup.py
-├── README.md
-├── LICENSE
-```
-
 ## License
 This project is licensed under the MIT License. See the `LICENSE` file for details.
 
